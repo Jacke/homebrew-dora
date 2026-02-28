@@ -1,23 +1,23 @@
 class Dora < Formula
   desc "Beautiful TUI for media downloading (yt-dlp + ffmpeg)"
   homepage "https://github.com/Jacke/doradura"
-  version "0.6.5"
+  version "0.6.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Jacke/doradura/releases/download/tui-v0.6.5/dora-aarch64-apple-darwin.tar.gz"
-      sha256 "c2aff44f6cec7fd113027ca8106bce769b3c230ae190c2ffeec0b6dc2abf979d"
+      url "https://github.com/Jacke/doradura/releases/download/tui-v0.6.6/dora-aarch64-apple-darwin.tar.gz"
+      sha256 "4ebfa94c061b12f3141ad4387ef33c4e3f8b74e95c0a1521a47238a77c78a7a0"
     end
     on_intel do
-      url "https://github.com/Jacke/doradura/releases/download/tui-v0.6.5/dora-x86_64-apple-darwin.tar.gz"
-      sha256 "aaa263a811eb0c6f8f549d8efafe68da4f190fe24d826549aeaae1ba9a189308"
+      url "https://github.com/Jacke/doradura/releases/download/tui-v0.6.6/dora-x86_64-apple-darwin.tar.gz"
+      sha256 "1503747bf035bb262a2a5875c16f88495bb28945692a53daa29cbaa7826bf9e4"
     end
   end
 
   on_linux do
-    url "https://github.com/Jacke/doradura/releases/download/tui-v0.6.5/dora-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "7a885f383202c3ade77b56ec3b33236bf845f202fabf6b1b23410507b7e029f3"
+    url "https://github.com/Jacke/doradura/releases/download/tui-v0.6.6/dora-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "cc96b37505920d6f3106688b1bfc0ef7b26e67e94468b8d81fc2eac6872f68c5"
   end
 
   depends_on "yt-dlp"
